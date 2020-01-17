@@ -21,6 +21,17 @@
     font-family: 'Cinzel', serif;
 }
 
+.overlay {
+    position:absolute;
+    top:50px;
+    right:0;
+    bottom:50px;;
+    left:0;
+    background-color: rgba(255,255,255,0.3);
+    z-index: 10;
+}
+
+
 .venezia {
     background-image: url(../img/Venezia.jpg);
 }
@@ -31,13 +42,4 @@
 
 .roma {
     background-image: url(../img/Roma.jpg);
-}
-
-.overlay {
-    position:absolute;
-    top:50px;
-    right:0;
-    bottom:50px;;
-    left:0;
-    background-color: rgba(255,255,255,0.3);
 }
